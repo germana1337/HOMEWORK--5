@@ -1,0 +1,335 @@
+/* -----------------HEADER BAR------------------ */
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 115px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    
+  
+}
+header ul {
+    margin-left: 338px;
+  
+  }
+  
+  header li {
+    float:left;
+    margin-top: 55px;
+  }
+  
+  header li a{ 
+    color: #ffffff;
+    padding: 5px 5px;
+    margin-top: 40px ;
+    font-size: 18px;
+    position: relative;
+  }
+  header li a::before{
+    content: "";
+    width: 0%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+header li a:hover:before{
+    width: 100%;
+    height: 1px;
+    transition: 2s;
+}
+  .headicon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  .h2div1{
+    width: 125px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 24px;
+  }
+
+  /* ---------------/ box divs pt.2  ------- LOGO BAR ------------- */
+
+.boxdiv{
+position: relative;
+width: 300px;
+height: 271px;
+background-color: rgb(255, 255, 255);
+margin-left: 110px;
+margin-top: 80px;
+border: #000000 solid 2px;
+}
+
+/* ------SOCIAL-----------NETWORK---------------LOGOS--------------- */
+
+.fblogo{
+    position: fixed;
+    width: 50px;
+    height: 50.48px;
+    left: 1600px;
+    top: 263px;
+    /* background-color:rgb(63, 52, 52);  */
+    background-image: url(../img/fb.png); 
+    background-size: 100%;
+    cursor: pointer;
+}
+.fblogo:hover{
+    background-image: url(../img/fblogocolor.png);
+}
+
+.instalogo{
+    width: 50px;
+    height: 50px;
+    left: 1600px;
+    top: 213px;
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+    position: fixed;
+    cursor: pointer;
+}
+.instalogo:hover{
+    background-image: url(../img/instalogocolor.png);
+
+}
+.likeimg{
+    clear: both;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: 100%;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+    background-image: url(../img/like.png);
+    
+   }
+   /* .likeimg2{
+    opacity: 0;
+    clear: both;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+   } */
+
+   .likeimg:hover{
+    background-image: url(../img/likelogocolor.png);
+    
+    
+   }
+/* ----MAIN------BOX-------MAIN------BOX------MAIN---------BOX------- */
+.boximg{
+width: 70px;
+height: 65px;
+margin-top: 70px;
+margin-left: 1px;
+}
+
+
+.h3text{
+    margin-left: 10px;
+font-size: 22px;
+margin-top: 15px;
+}
+.artisttext{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.boxfoottext{
+    margin-left: 115px;
+    margin-top: 7px;
+}
+.boxfoottext a{
+    color: #000000;
+    font-family: 'Roboto';
+}
+.article{
+float: left;
+margin-left: 80px;
+}
+/* -----------------footer pt3-------------------------- */
+.footerdiv{
+position: relative;
+height: 450px;
+width: 100%;
+border-radius: 0px;
+background-color: black;
+margin-top: 1590px;
+}
+.mscnote{
+    width: 130px;
+    height: 130px;
+    margin-left: 700px;
+    margin-top: 75px;
+}
+.footernav{
+margin-top: 95px;
+margin-left: 700px;
+}
+
+.footernav p{
+color: #ffffff;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 18px;
+padding: 3px;
+}
+.footernav a{
+    color:#ffffff
+}
+
+.reserved{
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 680px;
+    padding: 6px;
+}
+/* ------------ skileton done ----------------- */
+
+
+/* -------------------- SECOND PAGE CSS ---------------------- */
+
+/* --------------TRACKLIST PLAYLIST ---------------------- */
+.playlistpage{
+height: 361px;
+width: 280px;
+left: 100px;
+top: 148px;
+
+}
+.tracklist1{
+position: absolute;
+width: 280px;
+height: 361px;
+left: 50px;
+top: 220px;
+background-color: #E5E5E5;
+box-shadow: 0px 0px 10px 10px #E5E5E5;
+
+
+
+
+}
+.h2tracklist{
+margin-bottom: 40px;
+width: 114px;
+height: 28px;
+left: 100px;
+top: 148px;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 24px;
+}
+
+.tracklist1 li a{
+color: #000000;
+width: 280px;
+height: 21px;
+left: 100px;
+top: 227px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+}
+.time{
+    display: inline-block;
+    margin-left: 15px;
+}
+.artist{
+     padding: 5px;
+    display: inline-block;
+}
+.second{
+    margin-left: 400px;
+}
+/* ------------------CENTER IMAGE ----------------- */
+.centerimg{
+height: 65px;
+width: 65px;
+left: 559px;
+top: 552px;
+border-radius: 0px;
+}
+.centerimg1{
+margin-top: 130px;
+margin-left: 520px;
+}
+/* -------------------TRACKLIST PT2-------------------- */
+.tracklist2{
+width: 280px;
+height: 361px;
+left: 100px;
+top: 220px;
+margin-left: 100px;
+margin-top: 100px;
+float: left;
+background-color: #E5E5E5;
+box-shadow: 0px 0px 10px 10px #E5E5E5;
+
+}
+.h2tracklist1{
+margin-bottom: 40px;
+width: 114px;
+height: 28px;
+left: 100px;
+top: 148px;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 24px;
+}
+.tracklist2 li a{
+color: #000000;
+width: 280px;
+height: 21px;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 18px;
+ color: #000000;}
+    /* ---------------------- CENTER IMAGE -------------------- */
+    .centerimg3{
+        width: 65px;
+        height: 65px;
+        left: 635px;
+        top: 1224px;
+        }
+
+        .centerimg2{
+        margin-top: 600px;
+        margin-left: 620px;}
+    /* }
+    -------------------------FOOT--------------------- */
+ .thanks{
+width: 343px;
+height: 42px;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-top: 100px;
+text-align: center;
+ }
+ 
+ .footerdiv2{
+    margin-top: 100px;
+    background-color: black;
+ }
+/* --------------------DONE--------------------------- */
+.pink1{
+    background-color: #ffffff;
+}
+
+/* --------------------HOVERS-------------------------- */
+
